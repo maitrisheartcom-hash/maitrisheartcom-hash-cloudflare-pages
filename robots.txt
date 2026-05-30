@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://maitrisheartcom-hash-cloudflare-pages.pages.dev/sitemap.xml
