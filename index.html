@@ -229,10 +229,19 @@
       align-items: center;
       padding: 22px 0;
       border-top: 1px solid var(--line);
+      text-decoration: none;
+      transition: color 180ms ease, border-color 180ms ease, transform 180ms ease;
     }
 
     .story:last-child {
       border-bottom: 1px solid var(--line);
+    }
+
+    .story:hover,
+    .story:focus-visible {
+      border-top-color: rgba(105, 214, 230, 0.72);
+      color: var(--cyan);
+      transform: translateX(4px);
     }
 
     .tag {
@@ -371,32 +380,32 @@
         </div>
 
         <div class="story-list">
-          <article class="story">
+          <a class="story" href="posts/the-room-above-the-city.html">
             <div class="tag">Letter 01</div>
             <div>
               <h3>The Room Above the City</h3>
               <p>She invites the reader into a quiet skyline room where every sentence moves closer to the moment they have both been avoiding.</p>
             </div>
             <div class="time">7 min read</div>
-          </article>
+          </a>
 
-          <article class="story">
+          <a class="story" href="posts/what-she-said-after-midnight.html">
             <div class="tag">Letter 02</div>
             <div>
               <h3>What She Said After Midnight</h3>
               <p>A late-night chat turns playful, then daring, then unexpectedly tender as the scene warms through voice, memory, and consent.</p>
             </div>
             <div class="time">5 min read</div>
-          </article>
+          </a>
 
-          <article class="story">
+          <a class="story" href="posts/the-last-candle.html">
             <div class="tag">Letter 03</div>
             <div>
               <h3>The Last Candle</h3>
               <p>The story lingers on small gestures: a hand near a glass, a smile in the dark, and a hot scene built from anticipation rather than explicit detail.</p>
             </div>
             <div class="time">8 min read</div>
-          </article>
+          </a>
         </div>
       </div>
     </section>
